@@ -1,0 +1,18 @@
+{
+    "export_name": "model.json",
+    "model_name": "Img2Seq",
+    "encoder_cnn": "vanilla",
+    "positional_embeddings": true,
+    "attn_cell_config": {
+        "cell_type": "lstm",
+        "num_units": 512,
+        "dim_e": 256,
+        "dim_o": 512,
+        "dim_embeddings": 80
+    },
+    "decoding": "beam_search",
+    "beam_size": 2,
+    "div_gamma": 1,
+    "div_prob": 0,
+    "max_length_formula": 150
+}
