@@ -102,3 +102,20 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# for project only
+.ipynb_checkpoints/
+.vscode/
+data/
+results/
+tmp/
+*.rsyncignore
+*.DS_Store
+*.pyc
+*.aux
+*.log
+*.gz
+*.log
+*.sh
+*.zip
+*.7z

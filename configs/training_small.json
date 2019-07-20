@@ -1,0 +1,17 @@
+{
+    "export_name": "training.json",
+    "device": "cuda:0",
+    "criterion_method": "CrossEntropyLoss",
+    "n_epochs": 330,
+    "batch_size": 2,
+    "dropout": 127,
+    "clip": -1,
+    "lr_method": "Adam",
+    "lr_scheduler": "CosineAnnealingLR",
+    "lr_init": 1e-1,
+    "lr_min": 1e-4,
+    "start_decay": 6,
+    "end_decay": 13,
+    "lr_warm": 1e-3,
+    "end_warm": 0
+}
