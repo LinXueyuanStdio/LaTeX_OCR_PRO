@@ -243,6 +243,24 @@ python visualize_attention.py --image=data/images_test/6.png --vocab=configs/voc
 
 perplexity 是越接近1越好，其余3个指标是越大越好。ExactMatchScore 比较低，继续训练应该可以到 70 以上。机器不太好，训练太费时间了。
 
+## 5. 部署
+
+1. 安装部署需要的环境
+   ```bash
+   pip install django
+   ```
+2. 开启服务
+   ```bash
+   python manage.py runserver 0.0.0.0:8010
+   ```
+3. 开启图片服务
+   ```bash
+   cd data/images_train
+   python -m SimpleHTTPServer 8020
+   ```
+4. 使用方法
+   在输入框里依次输入 `0.png`, `1.png` 等等，即可看到结果
+
 
 ## 5. 模型的具体实现细节
 
@@ -320,4 +338,4 @@ C:/Users/dlink/AppData/Local/Programs/Python/Python35/python.exe train.py --data
 论文：
 1. [Show, Attend and Tell(Kelvin Xu...)](https://arxiv.org/abs/1502.03044)
 2. [Harvard's paper and dataset](http://lstm.seas.harvard.edu/latex/)
-1. [Seq2Seq for LaTeX generation](https://guillaumegenthial.github.io/image-to-latex.html).
+3. [Seq2Seq for LaTeX generation](https://guillaumegenthial.github.io/image-to-latex.html).
