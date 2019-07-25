@@ -1,6 +1,7 @@
 import click
-import torch
 
+import torch
+from torch.utils.data import DataLoader
 
 from model.utils.data_generator import DataGenerator
 from model.img2seq import Img2SeqModel
@@ -55,7 +56,7 @@ def main(data, vocab, training, model, output):
                              end_warm=config.end_warm*n_batches_epoch,
                              lr_warm=config.lr_warm,
                              lr_min=config.lr_min)
-    train_loader = torch.utils.data.DataLoader(train_set, shuffle=True)
+    train_loader = DataLoader(train_set, shuffle=True)
     # Build model and train
     model = Img2SeqModel(config, dir_output, vocab)
     model.build_train(config)
