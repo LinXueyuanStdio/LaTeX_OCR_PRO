@@ -124,6 +124,8 @@ class Img2SeqModel(BaseModel):
 
     def _get_feed_dict(self, img, formula=None, lr=None, dropout=1):
         """Returns a dict 网络的输入"""
+        img = [i[0].numpy() for i in img]
+        formula = [[i[0].numpy() for i in j] for j in formula]
         img = pad_batch_images(img)
 
         fd = {
