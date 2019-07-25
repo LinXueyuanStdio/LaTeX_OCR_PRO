@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Math Formulas Recognition</title>
+    <link rel="shortcut icon"
+        href="https://www.gstatic.com/devrel-devsite/va3a0eb1ff00a004a87e2f93101f27917d794beecfd23556fc6d8627bba2ff3cf/tensorflow/images/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
+        integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js"
+        integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <strong>
+        <p style="font-size:25px">This is a demo of math formula recognition task using Django and tfserving.</p>
+    </strong>
+    <p style="font-size:15px">Type your image URL in the input box below,and cilck the predict button,it will gives a
+        prediction result.</p>
+    <form action="/search" method="get">
+        <input type="text" name="info" placeholder="Type image url here" size="80">
+        <input type="submit" value="predict">
+    </form>
+    <b>The image of your input image URL is:</b><br />
+    <div style="width:800px; float:none" align="left">
+        <img src="{{image_url}}" alt="img" width="800px" border=1 />
+        <img src="{{gif_path}}" alt="img" width="800px" border=1 />
+    </div>
+    <strong>
+        <p style="font-size:20px"><br />predict result:
+            <span style="font-size:20px;color:red">{{ predict_string }}</span>
+        </p>
+    </strong>
+    <div id="render_latex"></div>
+
+    <script type="text/javascript">
+        var a = String.raw`{{predict_string}}`;
+        setTimeout(() => {
+            katex.render(a, document.getElementById("render_latex"), {
+                throwOnError: false
+            });
+        }, 1000);
+    </script>
+</body>
+
+</html>

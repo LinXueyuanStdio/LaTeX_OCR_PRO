@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Math Formulas Recognition</title>
+    <link rel="shortcut icon"
+        href="https://www.gstatic.com/devrel-devsite/va3a0eb1ff00a004a87e2f93101f27917d794beecfd23556fc6d8627bba2ff3cf/tensorflow/images/favicon.png">
+</head>
+
+<body>
+    <strong>
+        <p style="font-size:25px">This is a demo of math formula recognition task using Django and tfserving.</p>
+    </strong>
+    <p style="font-size:15px">Type your image URL in the input box below,and cilck the predict button,it will gives a
+        prediction result.</p>
+    <form action="/search" method="get">
+        <input type="text" name="info" placeholder="Type image url here" size="80">
+        <input type="submit" value="predict">
+    </form>
+</body>
+
+</html>

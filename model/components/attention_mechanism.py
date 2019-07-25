@@ -1,6 +1,8 @@
 import tensorflow as tf
 
 ctx_vector = []
+need_to_export = False
+
 class AttentionMechanism(object):
     """Class to compute attention over an image"""
 
@@ -99,15 +101,18 @@ class AttentionMechanism(object):
         """
         def gather_attention(val):
             global ctx_vector  # 用全局变量实现可视化
+            global need_to_export
 
             # TODO 下面的 if-else 会一直扩充 ctx_vector 可能导致 OOM
             # TODO 训练时注意注释掉
-            ctx_vector = []
-            # if not ctx_vector:
-            #     ctx_vector = [val]
-            # else:
-            #     ctx_vector += [val]
-            return False
+            if need_to_export:
+                if not ctx_vector:
+                    ctx_vector = [val]
+                else:
+                    ctx_vector += [val]
+            else:
+                ctx_vector = []
+            return need_to_export
 
         # 自定义一个 op 输入是 [a] 输出类型是 [tf.bool]。
         # 输出类型无所谓，我们只用来把 attention 传递到全局变量。
