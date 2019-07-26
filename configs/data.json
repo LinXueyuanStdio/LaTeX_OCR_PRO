@@ -17,7 +17,7 @@
     "bucket_val": true,
     "bucket_test": true,
 
-    "max_iter"          : null,
+    "max_iter"          : 5000,
     "max_length_formula": 150,
 
     "buckets": [
