@@ -161,6 +161,7 @@ class Img2SeqModel(BaseModel):
         """
         # logging
         batch_size = config.batch_size
+        train_set.shuffle()
         nbatches = (len(train_set) + batch_size - 1) // batch_size
         prog = Progbar(nbatches)
 

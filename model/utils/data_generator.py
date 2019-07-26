@@ -2,7 +2,7 @@ import time
 import os
 import numpy as np
 from scipy.misc import imread
-
+import random
 
 from .text import load_formulas
 from .image import build_images, greyscale
@@ -23,13 +23,20 @@ class DataGeneratorFile(object):
 
         """
         self._filename = filename
-
-    def __iter__(self):
+        self.datalist = []
         with open(self._filename) as f:
             for line in f:
                 line = line.strip().split(" ")
                 path_img, id_formula = line[0], line[1]
-                yield path_img, id_formula
+                self.datalist.append([path_img, id_formula])
+
+    def __iter__(self):
+        for data in datalist:
+            path_img, id_formula = data[0], data[1]
+            yield path_img, id_formula
+
+    def shuffle(self):
+        random.shuffle(self.datalist)
 
 
 class DataGenerator(object):
@@ -120,6 +127,9 @@ class DataGenerator(object):
 
         print("- done.")
         return bucketed_dataset
+
+    def shuffle(self):
+        self._data_generator.shuffle()
 
     def _load_formulas(self, filename):
         """Loads txt file with formulas in a dict
