@@ -129,6 +129,7 @@ class DataGenerator(object):
         return bucketed_dataset
 
     def shuffle(self):
+        print("- shuffle data")
         self._data_generator = DataGeneratorFile(self._path_matching)
         self._data_generator.shuffle()
 
