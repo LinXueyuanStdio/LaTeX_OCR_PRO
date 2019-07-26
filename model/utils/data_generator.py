@@ -98,7 +98,7 @@ class DataGenerator(object):
             bucketed_dataset: [(img_path1, id1), ...]
 
         """
-        print("Bucketing the dataset...")
+        print("- Bucketing the dataset...")
         bucketed_dataset = []
         old_mode = self._iter_mode  # store the old iteration mode
         self._iter_mode = "full"
@@ -129,7 +129,11 @@ class DataGenerator(object):
         return bucketed_dataset
 
     def shuffle(self):
+        self._data_generator = DataGeneratorFile(self._path_matching)
         self._data_generator.shuffle()
+
+        if self._bucket:
+            self._data_generator = self.bucket(self._bucket_size)
 
     def _load_formulas(self, filename):
         """Loads txt file with formulas in a dict
