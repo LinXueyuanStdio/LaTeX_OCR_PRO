@@ -31,7 +31,7 @@ class DataGeneratorFile(object):
                 self.datalist.append([path_img, id_formula])
 
     def __iter__(self):
-        for data in datalist:
+        for data in self.datalist:
             path_img, id_formula = data[0], data[1]
             yield path_img, id_formula
 
