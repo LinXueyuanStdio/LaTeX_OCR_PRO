@@ -7,6 +7,7 @@ import tensorflow as tf
 import tensorflow.contrib.layers as layers
 from PIL import Image
 import torch
+import random
 
 import model.components.attention_mechanism
 from model.base import BaseModel
@@ -168,7 +169,10 @@ class Img2SeqModel(BaseModel):
         # iterate over dataset
         for i, (img, formula) in enumerate(minibatches(train_set, batch_size)):
             # get feed dict
-            fd = self._get_feed_dict(img, formula=formula, lr=lr_schedule.lr, dropout=config.dropout)
+            # fd = self._get_feed_dict(img, formula=formula, lr=lr_schedule.lr, dropout=config.dropout)
+            # 来试试随机的 dropout
+            random_dropout = 0.5 + random.random() * 0.5
+            fd = self._get_feed_dict(img, formula=formula, lr=lr_schedule.lr, dropout=random_dropout)
 
             # update step
             _, loss_eval = self.sess.run([self.train_op, self.loss], feed_dict=fd)
