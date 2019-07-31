@@ -6,7 +6,6 @@ import numpy as np
 import tensorflow as tf
 import tensorflow.contrib.layers as layers
 from PIL import Image
-import torch
 import random
 
 import model.components.attention_mechanism
@@ -126,9 +125,6 @@ class Img2SeqModel(BaseModel):
 
     def _get_feed_dict(self, img, formula=None, lr=None, dropout=1):
         """Returns a dict 网络的输入"""
-        if len(img) > 0 and type(img[0]) is type(torch.Tensor([])):
-            img = [i[0].numpy() for i in img]
-            formula = [[i[0].numpy() for i in j] for j in formula]
         img = pad_batch_images(img)
 
         fd = {
@@ -199,7 +195,7 @@ class Img2SeqModel(BaseModel):
             "batch_size": config.batch_size
         })
         scores = self.evaluate(config_eval, val_set)
-        score = scores["perplexity"]
+        score = scores["perplexity"] + (scores["ExactMatchScore"] + scores["BLEU-4"]+ scores["EditDistance"]) / 10
         lr_schedule.update(score=score)
 
         return score
