@@ -1,17 +1,17 @@
 {
     "export_name": "data.json",
 
-    "dir_images_train": "data/small.train/",
-    "dir_images_test" : "data/small.test/",
-    "dir_images_val"  : "data/small.val/",
+    "dir_images_train": "data/small/images/train/",
+    "dir_images_test" : "data/small/images/test/",
+    "dir_images_val"  : "data/small/images/val/",
 
-    "path_matching_train": "data/small.matching/train.txt",
-    "path_matching_val"  : "data/small.matching/test.txt",
-    "path_matching_test" : "data/small.matching/val.txt",
+    "path_matching_train": "data/small/matching/train.txt",
+    "path_matching_val"  : "data/small/matching/test.txt",
+    "path_matching_test" : "data/small/matching/val.txt",
 
-    "path_formulas_train": "data/small.formulas/train.norm.txt",
-    "path_formulas_test" : "data/small.formulas/test.norm.txt",
-    "path_formulas_val"  : "data/small.formulas/val.norm.txt",
+    "path_formulas_train": "data/small/formulas/train.norm.txt",
+    "path_formulas_test" : "data/small/formulas/test.norm.txt",
+    "path_formulas_val"  : "data/small/formulas/val.norm.txt",
 
     "max_iter"          : null,
     "max_length_formula": 150,
