@@ -1,0 +1,29 @@
+{
+    "export_name": "data.json",
+
+    "dir_images_train": "data_washed/full/images/train/",
+    "dir_images_test" : "data_washed/full/images/test/",
+    "dir_images_val"  : "data_washed/full/images/val/",
+
+    "path_matching_train": "data_washed/full/matching/train.txt",
+    "path_matching_val"  : "data_washed/full/matching/test.txt",
+    "path_matching_test" : "data_washed/full/matching/val.txt",
+
+    "path_formulas_train": "data_washed/full/formulas/train.formulas.norm.txt",
+    "path_formulas_test" : "data_washed/full/formulas/test.formulas.norm.txt",
+    "path_formulas_val"  : "data_washed/full/formulas/val.formulas.norm.txt",
+
+    "max_iter"          : null,
+    "max_length_formula": 150,
+
+    "bucket_train": true,
+    "bucket_val": true,
+    "bucket_test": true,
+
+    "buckets": [
+        [240, 100], [320, 80], [400, 80], [400, 100], [480, 80], [480, 100],
+        [560, 80], [560, 100], [640, 80], [640, 100], [720, 80], [720, 100],
+        [720, 120], [720, 200], [800, 100], [800, 320], [1000, 200],
+        [1000, 400], [1200, 200], [1600, 200], [1600, 1600]
+        ]
+}
