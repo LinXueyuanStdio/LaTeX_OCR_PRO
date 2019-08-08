@@ -107,6 +107,7 @@ venv.bak/
 .ipynb_checkpoints/
 .vscode/
 data/
+data_washed/
 results/
 tmp/
 *.rsyncignore
