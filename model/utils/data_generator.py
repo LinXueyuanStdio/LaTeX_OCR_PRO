@@ -176,14 +176,22 @@ class DataGenerator(object):
         """
         img_path, formula_id = example
 
-        img = imread(self._dir_images + img_path)
-        img = self._img_prepro(img)
-        formula = self._form_prepro(self._get_raw_formula(formula_id))  # py3.x 要加 list()， 不然会返回 map
-
         if self._iter_mode == "data":
+            img = imread(self._dir_images + img_path)
+            img = self._img_prepro(img)
+            formula = self._get_raw_formula(formula_id)
+            formula = self._form_prepro(formula)  # py3.x 要加 list()， 不然会返回 map
             inst = (img, formula)
         elif self._iter_mode == "full":
+            img = imread(self._dir_images + img_path)
+            img = self._img_prepro(img)
+            formula = self._get_raw_formula(formula_id)
+            formula = self._form_prepro(formula)  # py3.x 要加 list()， 不然会返回 map
             inst = (img, formula, img_path, formula_id)
+        elif self._iter_mode == "formulas_only":
+            formula = self._get_raw_formula(formula_id)
+            formula = self._form_prepro(formula)  # py3.x 要加 list()， 不然会返回 map
+            inst = (formula)
 
         # filter on the formula length
         if self._max_len is not None and len(formula) > self._max_len:
