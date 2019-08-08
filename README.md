@@ -86,7 +86,9 @@ make install-mac
 ```shell
 sudo pip install -r requirements.txt
 ```
-2. LaTeX 请自行安装
+2. LaTeX
+
+我们需要 pdflatex，可以傻瓜式一键安装：[http://www.tug.org/mactex/mactex-download.html](http://www.tug.org/mactex/mactex-download.html)
 
 3. 安装[magick](https://www.imagemagick.org/script/install-source.php) (pdf 转 png)
 
