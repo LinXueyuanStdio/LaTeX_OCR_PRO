@@ -1,0 +1,9 @@
+{
+	"export_name": "vocab.json",
+
+    "unk": "_UNK",
+    "pad": "_PAD",
+    "end": "_END",
+    "path_vocab": "data/hand/formulas/vocab.txt",
+    "min_count_tok": 10
+}

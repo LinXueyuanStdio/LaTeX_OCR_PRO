@@ -1,0 +1,1200 @@
+z_{1} = r_{1} ( \cos \theta_{1} + i \sin \theta_{1} )
+\log z = \log r + i ( \theta + 2 n \pi )
+(69 + 177 \times 136) + (117 \div 140) > 5612
+x^{2} \frac{d^{2} y}{d x^{2}} - 3 x \frac{dy}{dx} + y =\frac{\log x \cdot \sin{\log x} + 1}{x}
+p^{3} - ( x^{2} + x y + y^{2} ) p^{2} + ( x^{3} y + x^{2} y^{2} +x y^{3} ) p - x^{3} y^{3} = 0
+y = x p + \sqrt{ b^{2} + a^{2} p^{2} }
+((24 - 44) \times 61) - (64 \div (196 + 162)) > -992
+\phi(x)
+\log_c(a - b) = \log_c(c^{(\log_ca - \log_cb)} - 1 )+ \log_cb
+151 \pm 143 \div 97
+21-5\sqrt{21} + (15\sqrt{7}-21\sqrt{3})i
+78 \pm 5 \times 47
+\cos (a + b) = \cos a \cos b - \sin a \sin b
+e^{-1}
+1 - 1 + 1 - 1 + \ldots
+2^n-1
+1 \pm 20 - 173
+\frac{2}{3}n^3
+a^2-2ab
+\cos x + i \sin x=e^{ix}
+y= y_0+t^mY
+b_{n}-a_{n}
+175 \times (162 \times 103) \leq 2920050
+a^2 - 2ab = (a - b)^2 - b^2
+\gamma_{jk}
+113 + (168 \div 86) \leq 115
+b=a^2+c^2
+n^2 - n + 41
+n^{\log_2(3)}
+42 - 85 - 18 \geq -25
+Y = g(X) = \frac{1}{X}
+76 \pm ((41 + 118) \times 124) \times 130
+ax^{2} + 2bx + c = 0
+\gamma = 1 + \frac{1}{n}
+94 + 74 + 6 + 138 > 21
+x^3 + 3x^2\sqrt{3} - 3x - \sqrt{3}
+(29 - 24 + 169) \times 88 \leq -14431
+y_1(x) = x^2
+89 \times ((155 \times 50) \div 132) \neq -1372
+\sin (nx)
+12 + 138 + 144 + 73 > 45
+\sin^2(x)
+((84 / 113) / 51) - 119 = -118.99
+\forall x, f(x)
+a_2=-1
+24 / 125 = 0.19
+n_1+\ldots+n_j
+4 \div 182 = 0.02
+4, 2, 1
+(-a)^n = a^n
+y = \frac { 1}{Y}
+((116 - 17) \times (124 - 98)) \div 10 > 205
+x^{-4}
+\frac1{n^{k+2}}
+\cos(4a) = 8\cos^4(a) - 8\cos^2(a) +1
+(18 + 22) \div 92 \neq 0
+y=x^{n}
+\frac{y_2x_2-y_1x_1}{n}
+3 = \sqrt{6+\sqrt{6+\sqrt{6+\sqrt{6+\ldots}}}}
+\frac{n(n+1)}{2}+\frac{n(n-1)}{2}
+14 \times 87 \neq -196
+y \neq x
+x^2 + 2x\sqrt{2} + 1
+148 - 141 \neq -4
+\frac{9}{5}
+k_n=1
+12 \div 75 \geq 0
+-\frac{1}{\pi}
+(2-1)
+126 - 48 = 78
+((26 \div 128) + 50) - (183 \div 29) \neq -6
+10^{64}
+2^{17}
+((126 \div 185) \times (59 + 139)) - 59 > 0
+r=\sqrt{\theta}
+n^3 = n^{\log_{2}8}
+19 \times 7 \leq 133
+y = \frac{1}{x^2 + 1}
+\sin(x)
+26 \pm (109 + 119 - 82) \div ((169 - 123) + (20 \div 175))
+z^2 - 2z - 1 = 0
+186 \pm 6 + 98 + 176 + 92
+2^{18}
+f(x) = X^2 - 4X - 5
+m_1, m_2, m_3
+15 \div ((76 \div 10) + (199 - 89)) > 0
+\frac{4}{3}
+b = \sqrt{2}
+69 + ((112 - 46) / 126) > 61
+x^5+x+a
+(g^{-1})^{ij}
+f+g
+-2x
+67 - 132 - 181 - 194 = -52
+2^{50}
+((117 \times 54) \div (141 \times 124)) - ((70 \div 193) \div 159) \geq 0
+2 {k} {\pi}
+(166 + (93 \times 67)) - (64 + 127 + 176) \leq 6030
+y(0) = \alpha_1
+2^5+2+1
+((56 \times 52) \div 135) + (34 - (74 \times 92)) \geq -6752
+\theta_2=\theta
+7 \times 154 \neq -1362
+\sqrt{5+2\sqrt{6} }
+\frac{\sqrt{3}}{4}
+\theta + \pi
+(47 \times 111) + 85 \geq 5301
+a+c=b
+3n-5
+0 \pm 52 \times (169 + 196 - 58)
+x_2 = \frac{-1+i\sqrt{7}}{2}
+x=\alpha_{1} y_{1}+\ldots+\alpha_{n+1}y_{n+1}
+(z^2 + y_0 - a_0z - b_0)(z^2 + y_0 + a_0z + b_0) = 0
+x_0, y_0, z_0
+n-i
+\sum_0^\infty \frac{1}{n^2}
+y = z x
+\frac{b-a}{n}\leq\alpha
+c(0) = 1
+y(\phi)
+ax + by + cz + d=0
+e = 2
+a_{n}=n^{-\beta}
+0 \pm 145 - 35
+\frac{1}{10}
+x^n=z
+e^{X}e^{Y}
+((31 \div 52) - (21 \div 120)) \times 102 \geq 42
+\sin (a - b) = \sin a \cos b - \cos a \sin b
+\frac{1}{500}
+100 \pm 15 \times 16
+\frac{\beta}{\alpha-1}
+1+2+3+\ldots+(n-1)+n
+(n+3)
+x^{2} + 2x + 1 = 0
+\pm i a
+10 + 67 \leq 77
+2^{69}
+x_{(k)}
+2^{n(n - 1)}
+\frac{1}{3}\frac{1}{3}\gamma
+\sqrt{1+\frac{1}{\sqrt{2}}} +\sqrt{1-\frac{1}{\sqrt{2}}}
+((98 + 150) + (76 \div 16)) + ((97 \div 92) \times 151) \neq 326
+x - n
+32 \pm 12 \times 15
+z=0
+(51 - 53 + 31) - ((186 \times 21) \times (161 \div 103)) \neq -8248
+\frac{a^2}{b^2} = a^k
+x^4 - 4x^3\sqrt{2} + 2x^2 + 4x\sqrt{2}+ 1
+c = \sqrt{a^2+b^2-2ab\cos\gamma}
+\gamma = \pi-\alpha-\beta
+\cos(a+b)= \cos(a) \cos(b) -\sin(a) \sin(b)
+30 - 180 + 70 \neq 294
+3^{n+1} + 2
+x^2 - x - 1 = 0
+1 - (-1)^d
+x^2+x+1 = 0
+(\gamma )
+7 \pm (111 \div (28 + 23)) \times ((53 + 187) \times (179 \div 147))
+189 \pm 159 \times (50 \times 99)
+(x + 1) (8x^3 - 4x^2 - 4x + 1)=0
+\sqrt{2+\sqrt{2}}
+6 = 2^1(2^2-1)
+\cos(2x)=\cos^2(x)-\sin^2(x)
+172 - 111 - 55 - 187 \neq -83
+40 - (134 - (144 \div 154)) \geq -93
+3a + 2 \leq 5
+x \times (- \infty)
+12 \pm ((29 \times 6) + 22) + ((47 \times 133) - (86 - 187))
+n \log(n)
+b_0=1
+0=\frac{d^2 y}{dx^2}
+n-1
+(2 + 3i)
+n = 0
+y = \frac{1}{x}
+83 \pm ((179 \div 23) - (149 + 151)) \div 88
+59 + 53 \neq -65
+x^{\frac{1}{2} (1 + \frac{1}{2^2}) (1 + \frac{1}{2^4}) (1 + \frac{1}{2^8})}
+146 \times (101 + 157 - 181) = 11242
+n\times d
+ac=1
+120 - 14 - 107 \leq 213
+6a^2
+y^2=\frac{x^3}{2a-x}
+179 \times ((10 - 77) \times (21 + 102)) \geq -1475139
+n \log_2 n
+8y_{i+1}
+37 \times 45 \geq 1664
+(n-1)2^{n-4}
+c_1=a_{11}
+\pi(e_1)
+(a + c)^2 = 12
+((138 + 42) \div 93) + (73 + 141 + 169) > 346
+192 - 166 \neq 12
+k_1,\ldots,k_m
+y_{1} + y_{3} = \sqrt{z_{2}}
+\exists x
+(166 - 122 + 32) + ((106 \div 30) \div (30 \div 18)) \geq 77
+x=\phi_{ki}(z)
+\frac{1}{-1} = \frac{-1}{1}
+\sqrt{1+x}
+(x_1+y_1\sqrt{n})^k
+76 \pm (102 + 150) \times 56
+4^2 = 2^4
+60 - 136 \geq -76
+\sqrt{1-z^2}
+\theta = \frac {n \times 360} {60 \times 1000}
+x^2 - dy^2 =\pm 1
+(2-1-1)
+\frac{x^2+y^2}{a^2}-\frac{z^2}{c^2}-1=0
+(a + b)^2 = a^2 + 2ab + b^2
+10x = 3
+10^n - k
+b \neq 0
+(72 \div 151) \div (10 \times 152) \leq 0
+c^2 = (a-b)^2+2ab
+x+dx
+dx^3+(4e-c^2)x^2-2cdx-d^2 = 0
+58 + 4 \geq 61
+x=\beta_{3}y_{3}+\ldots+\beta_{n+1}y_{n+1}
+10^{-12}
+x_4 = -\sqrt{2}
+102 + 72 \geq 173
+\frac{1}{\log_a(b)}
+x^3 = 18x + 35
+\sin(- x) = -\sin(x)
+y+16=x
+(81 + (38 + 107)) \div 151 \leq 78
+199 - 151 = 48
+\frac{(e^{i x} - e^{-i x})}{2} = i \sin(x)
+(n-1)
+\forall x \in X
+\exists k, x_k
+\forall x,y
+\forall x\in X,(\alpha f)(x) = \alpha f(x)
+\forall t \in (0,1)
+\lim_{n \rightarrow \infty} \frac{1}{n} \sum f ( \frac{r}{n} ) = \int_{0}^{1} f ( x ) dx
+\int_a^b \frac {\sqrt x} 2 d x
+A = \sqrt {a + \frac 1 {\sqrt {a + \frac 1 {\sqrt a}}}} + \sqrt b
+\lim_{x \rightarrow \infty} \int_0^x e^{- y^2} d y = \frac {\sqrt \pi} 2
+\int_a^b \frac {\sqrt x} 2 d x
+A = \sqrt {a + \frac 1 {\sqrt {a + \frac 1 {\sqrt a}}}} + \sqrt b
+\lim_{x \rightarrow \infty} \int_0^x e^{- y^2} d y = \frac {\sqrt \pi} 2
+\int_a^b \frac {\sqrt x} 2 d x
+A = \sqrt {a + \frac 1 {\sqrt {a + \frac 1 {\sqrt a}}}} + \sqrt b
+\lim_{x \rightarrow \infty} \int_0^x e^{- y^2} d y = \frac {\sqrt \pi} 2
+\int_a^b \frac {\sqrt x} 2 d x
+A = \sqrt {a + \frac 1 {\sqrt {a + \frac 1 {\sqrt a}}}} + \sqrt b
+\lim_{x \rightarrow \infty} \int_0^x e^{- y^2} d y = \frac {\sqrt \pi} 2
+\int_a^b \frac {\sqrt x} 2 d x
+A = \sqrt {a + \frac 1 {\sqrt {a + \frac 1 {\sqrt a}}}} + \sqrt b
+\lim_{x \rightarrow \infty} \int_0^x e^{- y^2} d y = \frac {\sqrt \pi} 2
+\int_a^b \frac {\sqrt x} 2 d x
+A = \sqrt {a + \frac 1 {\sqrt {a + \frac 1 {\sqrt a}}}} + \sqrt b
+\lim_{x \rightarrow \infty} \int_0^x e^{- y^2} d y = \frac {\sqrt \pi} 2
+\int_a^b \frac {\sqrt x} 2 d x
+A = \sqrt {a + \frac 1 {\sqrt {a + \frac 1 {\sqrt a}}}} + \sqrt b
+\lim_{x \rightarrow \infty} \int_0^x e^{- y^2} d y = \frac {\sqrt \pi} 2
+\int_a^b \frac {\sqrt x} 2 d x
+A = \sqrt {a + \frac 1 {\sqrt {a + \frac 1 {\sqrt a}}}} + \sqrt b
+\lim_{x \rightarrow \infty} \int_0^x e^{- y^2} d y = \frac {\sqrt \pi} 2
+\int_a^b \frac {\sqrt x} 2 d x
+A = \sqrt {a + \frac 1 {\sqrt {a + \frac 1 {\sqrt a}}}} + \sqrt b
+\lim_{x \rightarrow \infty} \int_0^x e^{- y^2} d y = \frac {\sqrt \pi} 2
+\int_a^b \frac {\sqrt x} 2 d x
+A = \sqrt {a + \frac 1 {\sqrt {a + \frac 1 {\sqrt a}}}} + \sqrt b
+\lim_{x \rightarrow \infty} \int_0^x e^{- y^2} d y = \frac {\sqrt \pi} 2
+\int_a^b \frac {\sqrt x} 2 d x
+A = \sqrt {a + \frac 1 {\sqrt {a + \frac 1 {\sqrt a}}}} + \sqrt b
+\lim_{x \rightarrow \infty} \int_0^x e^{- y^2} d y = \frac {\sqrt \pi} 2
+\int_a^b \frac {\sqrt x} 2 d x
+A = \sqrt {a + \frac 1 {\sqrt {a + \frac 1 {\sqrt a}}}} + \sqrt b
+\lim_{x \rightarrow \infty} \int_0^x e^{- y^2} d y = \frac {\sqrt \pi} 2
+\int_a^b \frac {\sqrt x} 2 d x
+A = \sqrt {a + \frac 1 {\sqrt {a + \frac 1 {\sqrt a}}}} + \sqrt b
+\lim_{x \rightarrow \infty} \int_0^x e^{- y^2} d y = \frac {\sqrt \pi} 2
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+x_x^x + y_y^y + z_z^z - x - y - z
+x_1 \times x_2 \times x_3 \times x_4 = X
+z_1^2 + 1^z - z_2^2 + 2^z
+\sum_{i = 2 n + 3 m}^{1 0} i x
+\log_2 \frac 1 2 + \log_4 \frac 2 4
+\frac 2 {\frac {3 m - 2 n \times 9^n - 9^m} {2 n - 1}}
+[ \frac 2 3 x^{\frac 3 2} ]_0^1
+\int_{\log 3}^0 \frac 1 {e^t + 1} d t
+\pi \int_c^d \{ g ( y ) \}^2 d y
+\sqrt {1 + \sqrt {2 + \sqrt {3 + \sqrt 4}}}
+[ b^x \{ ( \frac a b )^x + 1 \} ]^{\frac 1 x}
+\log x(t) = \sum_{k=1}^{\infty} \frac{a_{k}}{k!} ( i t )^{ k } - \frac{1}{2} (\sum_{k=1}^{\infty} \frac{a_{k}}{k!} ( i t )^{ k } )^{2} + \frac{1}{3} (\sum_{k=1}^{\infty} \frac{a_{k}}{k!} ( i t )^{ k } )^{3} - \ldots
+\lim_{n \rightarrow \infty} t_{3n} = \frac{1}{2} \log 2
+\log_{2} 8 = 3
+x^{2} + y^{2} \lt 1
+e^{i \pi} + 1 = 0
+\tan z = \frac{\sin z}{\cos z}
+\sin^{2} \theta + \cos^{2} \theta = 1
+e = \sum^{\infty}_{k = 0} \frac{1}{k !}
+F_{n} = F_{n - 1} + F_{n - 2}
+x = \frac{- b \pm \sqrt{b^{2} - 4 a c}}{2 a}
+A = \sqrt{a + \frac{1}{\sqrt{a + \frac{1}{\sqrt{a}}}}} + \sqrt{b}
+a \left( n \right) = \sum^{n}_{k = 1} \left( - 1 \right)^{n - k} k !
+\left( z^{\frac{n}{2}} + y^{\frac{n}{2}} \right) \left( z^{\frac{n}{2}} - y^{\frac{n}{2}} \right) = x
+\log_{2} 8 = 3
+x^{2} + y^{2} \lt 1
+e^{i \pi} + 1 = 0
+\tan z = \frac{\sin z}{\cos z}
+\sin^{2} \theta + \cos^{2} \theta = 1
+e = \sum^{\infty}_{k = 0} \frac{1}{k !}
+F_{n} = F_{n - 1} + F_{n - 2}
+x = \frac{- b \pm \sqrt{b^{2} - 4 a c}}{2 a}
+A = \sqrt{a + \frac{1}{\sqrt{a + \frac{1}{\sqrt{a}}}}} + \sqrt{b}
+a \left( n \right) = \sum^{n}_{k = 1} \left( - 1 \right)^{n - k} k !
+\left( z^{\frac{n}{2}} + y^{\frac{n}{2}} \right) \left( z^{\frac{n}{2}} - y^{\frac{n}{2}} \right) = x
+\log_{2} 8 = 3
+x^{2} + y^{2} \lt 1
+e^{i \pi} + 1 = 0
+\tan z = \frac{\sin z}{\cos z}
+\sin^{2} \theta + \cos^{2} \theta = 1
+e = \sum^{\infty}_{k = 0} \frac{1}{k !}
+F_{n} = F_{n - 1} + F_{n - 2}
+x = \frac{- b \pm \sqrt{b^{2} - 4 a c}}{2 a}
+A = \sqrt{a + \frac{1}{\sqrt{a + \frac{1}{\sqrt{a}}}}} + \sqrt{b}
+a \left( n \right) = \sum^{n}_{k = 1} \left( - 1 \right)^{n - k} k !
+\left( z^{\frac{n}{2}} + y^{\frac{n}{2}} \right) \left( z^{\frac{n}{2}} - y^{\frac{n}{2}} \right) = x
+\log_{2} 8 = 3
+x^{2} + y^{2} \lt 1
+e^{i \pi} + 1 = 0
+\tan z = \frac{\sin z}{\cos z}
+\sin^{2} \theta + \cos^{2} \theta = 1
+e = \sum^{\infty}_{k = 0} \frac{1}{k !}
+F_{n} = F_{n - 1} + F_{n - 2}
+x = \frac{- b \pm \sqrt{b^{2} - 4 a c}}{2 a}
+A = \sqrt{a + \frac{1}{\sqrt{a + \frac{1}{\sqrt{a}}}}} + \sqrt{b}
+a \left( n \right) = \sum^{n}_{k = 1} \left( - 1 \right)^{n - k} k !
+\left( z^{\frac{n}{2}} + y^{\frac{n}{2}} \right) \left( z^{\frac{n}{2}} - y^{\frac{n}{2}} \right) = x
+\log_{2} 8 = 3
+x^{2} + y^{2} \lt 1
+e^{i \pi} + 1 = 0
+\tan z = \frac{\sin z}{\cos z}
+\sin^{2} \theta + \cos^{2} \theta = 1
+e = \sum^{\infty}_{k = 0} \frac{1}{k !}
+F_{n} = F_{n - 1} + F_{n - 2}
+x = \frac{- b \pm \sqrt{b^{2} - 4 a c}}{2 a}
+A = \sqrt{a + \frac{1}{\sqrt{a + \frac{1}{\sqrt{a}}}}} + \sqrt{b}
+a \left( n \right) = \sum^{n}_{k = 1} \left( - 1 \right)^{n - k} k !
+\left( z^{\frac{n}{2}} + y^{\frac{n}{2}} \right) \left( z^{\frac{n}{2}} - y^{\frac{n}{2}} \right) = x
+\log_{2} 8 = 3
+x^{2} + y^{2} \lt 1
+e^{i \pi} + 1 = 0
+\tan z = \frac{\sin z}{\cos z}
+\sin^{2} \theta + \cos^{2} \theta = 1
+e = \sum^{\infty}_{k = 0} \frac{1}{k !}
+F_{n} = F_{n - 1} + F_{n - 2}
+x = \frac{- b \pm \sqrt{b^{2} - 4 a c}}{2 a}
+A = \sqrt{a + \frac{1}{\sqrt{a + \frac{1}{\sqrt{a}}}}} + \sqrt{b}
+a \left( n \right) = \sum^{n}_{k = 1} \left( - 1 \right)^{n - k} k !
+\left( z^{\frac{n}{2}} + y^{\frac{n}{2}} \right) \left( z^{\frac{n}{2}} - y^{\frac{n}{2}} \right) = x
+\log_{2} 8 = 3
+x^{2} + y^{2} \lt 1
+e^{i \pi} + 1 = 0
+\tan z = \frac{\sin z}{\cos z}
+\sin^{2} \theta + \cos^{2} \theta = 1
+e = \sum^{\infty}_{k = 0} \frac{1}{k !}
+F_{n} = F_{n - 1} + F_{n - 2}
+x = \frac{- b \pm \sqrt{b^{2} - 4 a c}}{2 a}
+A = \sqrt{a + \frac{1}{\sqrt{a + \frac{1}{\sqrt{a}}}}} + \sqrt{b}
+a \left( n \right) = \sum^{n}_{k = 1} \left( - 1 \right)^{n - k} k !
+\left( z^{\frac{n}{2}} + y^{\frac{n}{2}} \right) \left( z^{\frac{n}{2}} - y^{\frac{n}{2}} \right) = x
+\log_{2} 8 = 3
+x^{2} + y^{2} \lt 1
+e^{i \pi} + 1 = 0
+\tan z = \frac{\sin z}{\cos z}
+\sin^{2} \theta + \cos^{2} \theta = 1
+e = \sum^{\infty}_{k = 0} \frac{1}{k !}
+F_{n} = F_{n - 1} + F_{n - 2}
+x = \frac{- b \pm \sqrt{b^{2} - 4 a c}}{2 a}
+A = \sqrt{a + \frac{1}{\sqrt{a + \frac{1}{\sqrt{a}}}}} + \sqrt{b}
+a \left( n \right) = \sum^{n}_{k = 1} \left( - 1 \right)^{n - k} k !
+\left( z^{\frac{n}{2}} + y^{\frac{n}{2}} \right) \left( z^{\frac{n}{2}} - y^{\frac{n}{2}} \right) = x
+\log_{2} 8 = 3
+x^{2} + y^{2} \lt 1
+e^{i \pi} + 1 = 0
+\tan z = \frac{\sin z}{\cos z}
+\sin^{2} \theta + \cos^{2} \theta = 1
+e = \sum^{\infty}_{k = 0} \frac{1}{k !}
+F_{n} = F_{n - 1} + F_{n - 2}
+x = \frac{- b \pm \sqrt{b^{2} - 4 a c}}{2 a}
+A = \sqrt{a + \frac{1}{\sqrt{a + \frac{1}{\sqrt{a}}}}} + \sqrt{b}
+a \left( n \right) = \sum^{n}_{k = 1} \left( - 1 \right)^{n - k} k !
+\left( z^{\frac{n}{2}} + y^{\frac{n}{2}} \right) \left( z^{\frac{n}{2}} - y^{\frac{n}{2}} \right) = x
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d_{x}
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{3}{2} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} a_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - \frac{j}{2 i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
+\sqrt{b^{2} - 4 a c}
+\sqrt{x - y - z + x^{2} + y^{2} + z^{2}}
+\frac{\sin \theta + \cos \theta + \tan \theta}{x + y + z}
+\left( x^{3} - x^{2} - x \right) \left( 2 x - 7 \right)
+x_{1} - x_{2} + y_{1} - y_{2} + z_{1} - z_{2}
+a + b + c + d + e
+x^{i + 2 j \times k^{3} - 2 \frac{j}{i}}
+\log_{2} 8 + \log_{3} 9 + \log_{4} 1 6
+\sin x - \sin y - \sin \left( x - y \right)
+\frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
+\frac{2 \tan \alpha}{1 - \tan^{2} \alpha}
+\lim_{x \rightarrow - 1} \frac{x^{3} + 1}{x + 1}
+1 + \frac{1}{1 !} + \frac{1}{2 !} + \frac{1}{3 !} + \frac{1}{4 !}
+\lim_{x \rightarrow \frac{\pi}{2} + 0} \tan x = - \infty
+\int \left( 2^{x} - 3 e^{x} \right) d x
+\frac{1}{a} F \left( a x + b \right) + C
+\frac{\sin B + \sin C}{\cos B + \cos C}
+\alpha_{n + 1} - 3 \beta = \frac{2}{3} \alpha_{n} + \beta - 3 \beta
+3 0 \times 2 9 x^{2 8}
+\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}
+\lim_{x \rightarrow \frac{1}{4}} \frac{1 - 4^{x - \frac{1}{4}}}{1 - 4 x}
+x_{1} + x_{2} = x_{3}
+x_{i} - x_{i + 1} + x_{i + 2}
