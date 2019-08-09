@@ -1,0 +1,29 @@
+{
+    "export_name": "data.json",
+
+    "dir_images_train": "data/full/images/images_train/",
+    "dir_images_test" : "data/full/images/images_test/",
+    "dir_images_val"  : "data/full/images/images_val/",
+
+    "path_matching_train": "data/full/matching/train.matching.txt",
+    "path_matching_val"  : "data/full/matching/val.matching.txt",
+    "path_matching_test" : "data/full/matching/test.matching.txt",
+
+    "path_formulas_train": "data/full/formulas/train.formulas.norm.txt",
+    "path_formulas_test" : "data/full/formulas/test.formulas.norm.txt",
+    "path_formulas_val"  : "data/full/formulas/val.formulas.norm.txt",
+
+    "max_iter"          : 7000,
+    "max_length_formula": 150,
+
+    "bucket_train": true,
+    "bucket_val": true,
+    "bucket_test": true,
+
+    "buckets": [
+        [240, 100], [320, 80], [400, 80], [400, 100], [480, 80], [480, 100],
+        [560, 80], [560, 100], [640, 80], [640, 100], [720, 80], [720, 100],
+        [720, 120], [720, 200], [800, 100], [800, 320], [1000, 200],
+        [1000, 400], [1200, 200], [1600, 200], [1600, 1600]
+        ]
+}
