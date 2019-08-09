@@ -10,8 +10,8 @@ import random
 
 import model.components.attention_mechanism
 from model.base import BaseModel
-from model.decoder import Decoder
-from model.encoder import Encoder
+from model.generator import Generator
+from model.discriminator import Discriminator
 from model.evaluation.text import score_files, truncate_end, write_answers
 from model.utils.general import Config, Progbar, minibatches
 from model.utils.image import pad_batch_images
@@ -58,14 +58,16 @@ class SeqGAN(BaseModel):
 
         # self.pred_train, self.pred_test
         # tensorflow 只有静态计算图，只好同时把 train 和 test 部分的计算图都建了
-        self.encoder = Encoder(self._config)
-        self.decoder = Decoder(self._config, self._vocab.n_tok, self._vocab.id_end)
-        encoded_img = self.encoder(self.img, self.dropout)
-        train, test = self.decoder(encoded_img, self.formula, self.dropout)
+        self.generator = Generator(self._config, self._vocab.n_tok, self._vocab.id_end)
+        train, test = self.generator(self.img, self.formula, self.dropout)
         self.pred_train = train
         self.pred_test = test
 
-        # self.loss
+        self.discriminator = Discriminator(self._config, self._vocab.n_tok)
+        self.D_loss = self.discriminator(self.pred_test.ids, self.formula, self.dropout)
+        self.D_optimizer = tf.train.AdamOptimizer().minimize(self.D_loss)
+
+        # self.loss 生成器第一阶段的 loss
         losses = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=self.pred_train, labels=self.formula)
         mask = tf.sequence_mask(self.formula_length)
         losses = tf.boolean_mask(losses, mask)
@@ -79,7 +81,8 @@ class SeqGAN(BaseModel):
         tf.summary.image("img", self.img)
         tf.summary.scalar("learning_rate", self.lr)
         tf.summary.scalar("dropout", self.dropout)
-        tf.summary.scalar("loss", self.loss)
+        tf.summary.scalar("G_loss", self.loss)
+        tf.summary.scalar("D_loss", self.D_loss)
         tf.summary.scalar("sum_of_CE_for_each_word", self.ce_words)
         tf.summary.scalar("number_of_words", self.n_words)
 
@@ -165,14 +168,22 @@ class SeqGAN(BaseModel):
         # iterate over dataset
         for i, (img, formula) in enumerate(minibatches(train_set, batch_size)):
             # get feed dict
-            # fd = self._get_feed_dict(img, formula=formula, lr=lr_schedule.lr, dropout=config.dropout)
+            fd = self._get_feed_dict(img, formula=formula, lr=lr_schedule.lr, dropout=config.dropout)
             # 来试试随机的 dropout
-            random_dropout = 0.5 + random.random() * 0.5
-            fd = self._get_feed_dict(img, formula=formula, lr=lr_schedule.lr, dropout=random_dropout)
+            # random_dropout = 0.5 + random.random() * 0.5
+            # fd = self._get_feed_dict(img, formula=formula, lr=lr_schedule.lr, dropout=random_dropout)
 
             # update step
-            _, loss_eval = self.sess.run([self.train_op, self.loss], feed_dict=fd)
-            prog.update(i + 1, [("loss", loss_eval), ("perplexity", np.exp(loss_eval)), ("lr", lr_schedule.lr)])
+            _, G_loss_eval = self.sess.run([self.train_op, self.loss], feed_dict=fd)
+            if (G_loss_eval <= 1):
+                # 等 Generator 的 loss 下降到 1 以下再训练判别器，不然判别器训练了感觉都没啥意义
+                _, D_loss_eval = self.sess.run([self.D_optimizer, self.D_loss], feed_dict=fd)
+            else:
+                D_loss_eval = 0
+            prog.update(i + 1, [("D_loss", D_loss_eval),
+                                ("G_loss", G_loss_eval),
+                                ("G_perplexity", np.exp(G_loss_eval)),
+                                ("lr", lr_schedule.lr)])
 
             # update learning rate
             lr_schedule.update(batch_no=epoch*nbatches + i)
@@ -195,7 +206,7 @@ class SeqGAN(BaseModel):
             "batch_size": config.batch_size
         })
         scores = self.evaluate(config_eval, val_set)
-        score = scores["perplexity"] + (scores["ExactMatchScore"] + scores["BLEU-4"]+ scores["EditDistance"]) / 10
+        score = scores["perplexity"] + (scores["ExactMatchScore"] + scores["BLEU-4"] + scores["EditDistance"]) / 10
         lr_schedule.update(score=score)
 
         return score
