@@ -53,3 +53,21 @@ eval:
 	python evaluate_img.py --results=results/full/
 
 full: build train eval
+
+train_full:
+	python train.py --data=data/full/data.json --vocab=data/full/vocab.json --training=configs/training.json --model=configs/model.json --output=results/full/
+train_small:
+	python train.py --data=data/small/data.json --vocab=data/small/vocab.json --training=configs/training.json --model=configs/model.json --output=results/small/
+train3_full:
+	python3 train.py --data=data/full/data.json --vocab=data/full/vocab.json --training=configs/training.json --model=configs/model.json --output=results/full/
+train3_small:
+	python3 train.py --data=data/small/data.json --vocab=data/small/vocab.json --training=configs/training.json --model=configs/model.json --output=results/small/
+
+train_full_GAN:
+	python train_GAN.py --data=data/full/data.json --vocab=data/full/vocab.json --training=configs/training.json --model=configs/model.json --output=results/full/
+train_small_GAN:
+	python train_GAN.py --data=data/small/data.json --vocab=data/small/vocab.json --training=configs/training.json --model=configs/model.json --output=results/small/
+train3_full_GAN:
+	python3 train_GAN.py --data=data/full/data.json --vocab=data/full/vocab.json --training=configs/training.json --model=configs/model.json --output=results/full/
+train3_small_GAN:
+	python3 train_GAN.py --data=data/small/data.json --vocab=data/small/vocab.json --training=configs/training.json --model=configs/model.json --output=results/small/
