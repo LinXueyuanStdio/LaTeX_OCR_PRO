@@ -120,3 +120,4 @@ tmp/
 *.sh
 *.zip
 *.7z
+out/
