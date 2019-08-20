@@ -1,7 +1,5 @@
 import click
 
-import torch
-
 from model.utils.data_generator import DataGenerator
 from model.img2seq import Img2SeqModel
 from model.utils.lr_schedule import LRSchedule

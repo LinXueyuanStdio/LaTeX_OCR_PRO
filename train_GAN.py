@@ -1,7 +1,5 @@
 import click
 
-import torch
-
 from model.utils.data_generator import DataGenerator
 from model.seqGAN import SeqGAN
 from model.utils.lr_schedule import LRSchedule
@@ -33,7 +31,7 @@ def main(data, vocab, training, model, output):
                               dir_images=config.dir_images_train,
                               img_prepro=greyscale,
                               max_iter=config.max_iter,
-                            #   iter_mode='formulas_only',
+                              #   iter_mode='formulas_only',
                               bucket=config.bucket_train,
                               path_matching=config.path_matching_train,
                               max_len=config.max_length_formula,
