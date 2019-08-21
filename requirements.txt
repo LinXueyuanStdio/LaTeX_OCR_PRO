@@ -1,5 +1,6 @@
 tensorflow==1.12.2
-numpy==1.16.1
+tensorboard==1.12.2
+tensorflow-tensorboard==0.4.0rc3
 scipy==1.0.0
 nltk==3.4
 Pillow==5.0.0
@@ -7,8 +8,8 @@ Distance==0.1.3
 six==1.12.0
 click==6.7
 notebook>=5.7.8
-tensorboard==1.12.2
-tensorflow-tensorboard==0.4.0rc3
 pyecharts==1.4.0
 django==2.2.4
 autopep8==1.4.4
+numpy==1.16.1
+matplotlib

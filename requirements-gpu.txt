@@ -12,3 +12,4 @@ tensorflow-tensorboard==0.4.0rc3
 pyecharts==1.4.0
 django==2.2.4
 autopep8==1.4.4
+matplotlib
