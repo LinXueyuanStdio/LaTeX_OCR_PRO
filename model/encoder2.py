@@ -13,7 +13,6 @@ class Encoder(object):
     def __init__(self, config):
         self._config = config
 
-
     def __call__(self, img, dropout):
         """Applies convolutions to the image
         Args:
@@ -23,7 +22,8 @@ class Encoder(object):
             the encoded images, shape = (?, h', w', c')
         """
         with tf.variable_scope("Encoder"):
-            img = tf.cast(img, tf.float32) / 255.
+            img = tf.cast(img, tf.float32) - 128.
+            img = img / 128.
 
             with tf.variable_scope("convolutional_encoder"):
                 # conv + max pool -> /2
@@ -103,14 +103,16 @@ class Encoder(object):
                     # 嵌入的方法有很多，比如加，乘，缩放等等，这里用 tensor2tensor 的实现
                     out2 = add_timing_signal_nd(out2)
                     image_summary("out2_7_layer", out2)
-        return out + out2
+            o = (out + out2) / 2.
+        return o
+
 
 def image_summary(name_scope, tensor):
     with tf.variable_scope(name_scope):
-        tf.summary.image("{}_{}".format(name_scope,0), tf.expand_dims(tf.expand_dims(tensor[0,:,:,0], 0), -1))
+        tf.summary.image("{}_{}".format(name_scope, 0), tf.expand_dims(tf.expand_dims(tensor[0, :, :, 0], 0), -1))
         # 磁盘炸了，只可视化一个
         # filter_count = tensor.shape[3]
         # for i in range(filter_count):
         #     tf.summary.image("{}_{}".format(name_scope,i), tf.expand_dims(tensor[:,:,:,i], -1))
-            # tf.expand_dims(tensor[:,:,:,i], -1)
-            # Tensor must be 4-D with last dim 1, 3, or 4, not [50,320], so we need to use expand_dims
+        # tf.expand_dims(tensor[:,:,:,i], -1)
+        # Tensor must be 4-D with last dim 1, 3, or 4, not [50,320], so we need to use expand_dims
