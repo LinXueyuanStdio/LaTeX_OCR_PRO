@@ -195,7 +195,7 @@ class Img2SeqModel(BaseModel):
             "batch_size": config.batch_size
         })
         scores = self.evaluate(config_eval, val_set)
-        score = scores["perplexity"] + (scores["ExactMatchScore"] + scores["BLEU-4"]+ scores["EditDistance"]) / 10
+        score = scores["perplexity"] + (scores["ExactMatchScore"] + scores["BLEU-4"] + scores["EditDistance"]) / 10
         lr_schedule.update(score=score)
 
         return score
@@ -235,6 +235,8 @@ class Img2SeqModel(BaseModel):
         elif self._config.decoding == "beam_search":
             refs, hyps = [], [[] for i in range(self._config.beam_size)]
 
+        nbatches = (len(test_set) + config.batch_size - 1) // config.batch_size
+        prog = Progbar(nbatches)
         n_words, ce_words = 0, 0  # sum of ce for all words + nb of words
         for img, formula in minibatches(test_set, config.batch_size):
             fd = self._get_feed_dict(img, formula=formula, dropout=1)
@@ -251,6 +253,8 @@ class Img2SeqModel(BaseModel):
                 refs.append(form)
                 for i, pred in enumerate(preds):
                     hyps[i].append(pred)
+
+            prog.update(i + 1, [("n_words", n_words), ("ce_words", ce_words)])
 
         files = write_answers(refs, hyps, self._vocab.id_to_tok, config.dir_answers, self._vocab.id_end)
 
