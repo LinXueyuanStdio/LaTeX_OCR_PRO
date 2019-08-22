@@ -25,8 +25,8 @@ class LRSchedule(object):
     """
 
     def __init__(self, lr_init=1e-3, lr_min=1e-4, start_decay=0,
-        decay_rate=None, end_decay=None, lr_warm=1e-4, end_warm=None,
-        early_stopping=None):
+                 decay_rate=0.5, end_decay=None, lr_warm=1e-4, end_warm=None,
+                 early_stopping=None):
         """Initializes Learning Rate schedule
 
         Sets self.lr and self.stop_training
@@ -44,16 +44,16 @@ class LRSchedule(object):
             early_stopping: (int) number of batches with no imprv
 
         """
-        self._lr_init     = lr_init
-        self._lr_min      = lr_min
+        self._lr_init = lr_init
+        self._lr_min = lr_min
         self._start_decay = start_decay
-        self._decay_rate  = decay_rate
-        self._end_decay   = end_decay
-        self._lr_warm     = lr_warm
-        self._end_warm    = end_warm
+        self._decay_rate = decay_rate
+        self._end_decay = end_decay
+        self._lr_warm = lr_warm
+        self._end_warm = end_warm
 
-        self._score            = None
-        self._early_stopping   = early_stopping
+        self._score = None
+        self._early_stopping = early_stopping
         self._n_batch_no_imprv = 0
 
         # warm start initializes learning rate to warm start
@@ -68,16 +68,14 @@ class LRSchedule(object):
         if self._end_decay is not None:
             self._exp_decay = np.power(lr_min/lr_init, 1/float(self._end_decay - self._start_decay))
 
-
     @property
     def stop_training(self):
         """For Early Stopping"""
         if (self._early_stopping is not None and
-            (self._n_batch_no_imprv >= self._early_stopping)):
+                (self._n_batch_no_imprv >= self._early_stopping)):
             return True
         else:
             return False
-
 
     def update(self, batch_no=None, score=None):
         """Updates the learning rate
@@ -96,7 +94,7 @@ class LRSchedule(object):
         # update based on time
         if batch_no is not None:
             if (self._end_warm is not None and
-                (self._end_warm <= batch_no <= self._start_decay)):
+                    (self._end_warm <= batch_no <= self._start_decay)):
                 self.lr = self._lr_init
 
             if batch_no > self._start_decay and self._end_decay is not None:
