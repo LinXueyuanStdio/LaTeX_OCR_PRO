@@ -38,7 +38,9 @@ def minibatches(data_generator, minibatch_size):
 def run(cmd, timeout_sec):
     """Run cmd in the shell with timeout"""
     proc = subprocess.Popen(cmd, shell=True)
-    kill_proc = lambda p: p.kill()
+
+    def kill_proc(p):
+        return p.kill()
     timer = Timer(timeout_sec, kill_proc, [proc])
     try:
         timer.start()
@@ -118,6 +120,17 @@ class Config():
             json.dumps(self.source, indent=4)
         else:
             copyfile(self.source, dir_name + self.export_name)
+
+    def show(self):
+        if type(self.source) is list:
+            for s in self.source:
+                c = Config(s)
+                c.show()
+        elif type(self.source) is dict:
+            print(json.dumps(self.source))
+        else:
+            with open(self.source) as f:
+                print(json.dumps(json.load(f), indent=4))
 
 
 class Progbar(object):

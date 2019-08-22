@@ -17,6 +17,7 @@ class BaseModel(object):
 
         """
         self._config = config
+        config.show()
         self._dir_output = dir_output
         init_dir(self._dir_output)
         self.logger = get_logger(self._dir_output + "model.log")
