@@ -16,8 +16,8 @@ Seq2Seq + Attention + Beam Search。结构如下：
 * [1. 搭建环境](#1-搭建环境)
 * [2. 开始训练](#2-开始训练)
 * [3. 可视化](#3-可视化)
-* [4. 评价](#4-评价)
-* [5. 部署](#5-部署)
+* [4. 部署](#4-部署)
+* [5. 评价](#5-评价)
 * [6. 更多细节](#6-更多细节)
     * [模型实现细节](./doc/how-it-work.md)
     * [解决方案](./doc/solution.md)
@@ -231,18 +231,10 @@ python visualize_attention.py --image=data/images_test/6.png --vocab=configs/voc
 
 </details>
 
-## 4. 评价
+## 4. 部署
 
-|      指标       | 训练分数 | 测试分数 |
-| :-------------: | :------: | :------: |
-|   perplexity    |   1.12   |   1.12   |
-|  EditDistance   |  94.36   |  80.45   |
-|     BLEU-4      |  91.16   |  75.42   |
-| ExactMatchScore |  51.50   |  12.44   |
-
-perplexity 是越接近1越好，其余3个指标是越大越好。ExactMatchScore 比较低，继续训练应该可以到 70 以上。机器不太好，训练太费时间了。
-
-## 5. 部署
+<details>
+  <summary>部署为 Django 应用</summary>
 
 1. 安装部署需要的环境
    ```bash
@@ -259,6 +251,19 @@ perplexity 是越接近1越好，其余3个指标是越大越好。ExactMatchSco
    ```
 4. 使用方法
    在输入框里依次输入 `0.png`, `1.png` 等等，即可看到结果
+
+</details>
+
+## 5. 评价
+
+|      指标       | 训练分数 | 测试分数 |
+| :-------------: | :------: | :------: |
+|   perplexity    |   1.12   |   1.13   |
+|  EditDistance   |  94.16   |  93.36   |
+|     BLEU-4      |  91.03   |  90.47   |
+| ExactMatchScore |  49.30   |  46.22   |
+
+perplexity 是越接近1越好，其余3个指标是越大越好。ExactMatchScore 比较低，继续训练应该可以到 70 以上。机器不太好，训练太费时间了。
 
 ## 6. 更多细节
 
