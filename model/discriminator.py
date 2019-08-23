@@ -32,9 +32,9 @@ class Discriminator(object):
         l2RegLambda = 0.0
         with tf.variable_scope("Discriminator"):
             embedding_table = tf.get_variable("embedding_table", shape=[self._n_tok, dim_embeddings],
-                                              dtype=tf.float32, initializer=embedding_initializer())
+                                              dtype=tf.float64, initializer=embedding_initializer())
             start_token = tf.get_variable("start_token", shape=[dim_embeddings],
-                                          dtype=tf.float32, initializer=embedding_initializer())
+                                          dtype=tf.float64, initializer=embedding_initializer())
             batch_size = tf.shape(formula)[0]
             # 利用词嵌入矩阵将输入的数据中的词转换成词向量，维度[batch_size, sequence_length, embedding_size]
             with tf.variable_scope("BiLSTM_Attention", reuse=False):

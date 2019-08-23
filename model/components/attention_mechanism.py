@@ -86,7 +86,7 @@ class AttentionMechanism(object):
 
         # computes scalar product with beta vector
         # works faster with a matmul than with a * and a tf.reduce_sum
-        att_beta = tf.get_variable("att_beta", shape=[self._dim_e, 1], dtype=tf.float32)
+        att_beta = tf.get_variable("att_beta", shape=[self._dim_e, 1], dtype=tf.float64)
         att_flat = tf.reshape(att, shape=[-1, self._dim_e])  # 扁平化
 
         e = tf.matmul(att_flat, att_beta)

@@ -23,7 +23,7 @@ class Encoder(object):
             the encoded images, shape = (?, h', w', c')
         """
         with tf.variable_scope("Encoder"):
-            img = tf.cast(img, tf.float32) - 128.
+            img = tf.cast(img, tf.float64) - 128.
             img = img / 128.
 
             with tf.variable_scope("convolutional_encoder"):
