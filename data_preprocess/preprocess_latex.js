@@ -1,6 +1,7 @@
-var katex = require("./katex/katex.js")
-options = require("./katex/src/Options.js")
+var katex = require("../latex/lib/katex.js")
+options = require("../latex/lib/src/Options.js")
 var readline = require('readline');
+
 var rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,

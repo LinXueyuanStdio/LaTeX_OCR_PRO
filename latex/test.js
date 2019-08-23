@@ -1,4 +1,4 @@
-var katex = require("./katex/katex.js")
+var katex = require("./lib/katex.js")
 var inspect = require('util').inspect;
 var latex = '\\sqrt { \\sin ( \\frac { \\Pi } { 2 } ) } = 1'
 var tree = katex.__parse(latex)
@@ -79,3 +79,32 @@ printTree(
   },
   node => getParseNode(node.value)
 );
+//=========== OUTPUT ==================
+/*
+\sqrt { \sin ( \frac { \Pi } { 2 } ) } = 1
+简单线条
+[
+  ParseNode {
+    type: 'sqrt',
+    value: { type: 'sqrt', body: [ParseNode], index: null },
+    mode: 'math'
+  },
+  ParseNode { type: 'rel', value: '=', mode: 'math' },
+  ParseNode { type: 'textord', value: '1', mode: 'math' }
+]
+
+极致色彩
+root []
+├─┬ sqrt [math]
+│ └─┬ ordgroup [math]
+│   ├── op [math, \sin]
+│   ├── open [math, (]
+│   ├─┬ genfrac [math]
+│   │ ├─┬ ordgroup [math]
+│   │ │ └── textord [math, \Pi]
+│   │ └─┬ ordgroup [math]
+│   │   └── textord [math, 2]
+│   └── close [math, )]
+├── rel [math, =]
+└── textord [math, 1]
+*/
