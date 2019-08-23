@@ -19,8 +19,8 @@ Seq2Seq + Attention + Beam Search。结构如下：
 * [4. 部署](#4-部署)
 * [5. 评价](#5-评价)
 * [6. 更多细节](#6-更多细节)
-    * [模型实现细节](./doc/how-it-work.md)
-    * [解决方案](./doc/solution.md)
+    * [模型实现细节](./doc/How-it-work.md)
+    * [解决方案](./doc/Solution.md)
 * [7. 致谢](#7-致谢)
 
 ## 1. 搭建环境
@@ -273,11 +273,11 @@ perplexity 是越接近1越好，其余3个指标是越大越好。
 
 ## 6. 更多细节
 
-1. [模型实现细节](./doc/how-it-work.md)
+1. [模型实现细节](./doc/How-it-work.md)
 
    包括数据获取、数据处理、模型架构、训练细节
 
-2. [解决方案](./doc/solution.md)
+2. [解决方案](./doc/Solution.md)
 
    包括 “如何可视化 Attention 层”、“在 win10 用 GPU 加速训练” 等等
 
