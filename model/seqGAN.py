@@ -249,7 +249,7 @@ class SeqGAN(BaseModel):
         nbatches = (len(test_set) + config.batch_size - 1) // config.batch_size
         prog = Progbar(nbatches)
         n_words, ce_words = 0, 0  # sum of ce for all words + nb of words
-        for img, formula in minibatches(test_set, config.batch_size):
+        for i, (img, formula) in enumerate(minibatches(test_set, config.batch_size)):
             fd = self._get_feed_dict(img, formula=formula, dropout=1)
             ce_words_eval, n_words_eval, ids_eval = self.sess.run([self.ce_words, self.n_words, self.pred_test.ids], feed_dict=fd)
 
@@ -262,8 +262,8 @@ class SeqGAN(BaseModel):
 
             for form, preds in zip(formula, ids_eval):
                 refs.append(form)
-                for i, pred in enumerate(preds):
-                    hyps[i].append(pred)
+                for j, pred in enumerate(preds):
+                    hyps[j].append(pred)
 
             prog.update(i + 1, [("n_words", n_words), ("ce_words", ce_words)])
 
