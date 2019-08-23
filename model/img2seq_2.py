@@ -102,6 +102,8 @@ class Img2SeqModel(BaseModel):
                 optimizer = tf.train.AdamOptimizer(lr)
             elif _lr_m == 'adagrad':
                 optimizer = tf.train.AdagradOptimizer(lr)
+            elif _lr_m == 'adadelta':
+                optimizer = tf.train.AdadeltaOptimizer(lr)
             elif _lr_m == 'sgd':
                 optimizer = tf.train.GradientDescentOptimizer(lr)
             elif _lr_m == 'rmsprop':
