@@ -165,6 +165,7 @@ def clear_global_attention_slice_stack():
     务必在调用 img2SeqModel.predict() 之前把 attention slices 栈清空
     不然每预测一次，各自不同公式的 attention slices 会堆在一起
     '''
+    model.components.attention_mechanism.need_to_export = True
     model.components.attention_mechanism.ctx_vector = []
 
 
