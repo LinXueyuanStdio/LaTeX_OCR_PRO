@@ -40,10 +40,10 @@ class Decoder(object):
         num_units = self._config.attn_cell_config["num_units"]
         with tf.variable_scope("Decoder"):
             embedding_table = tf.get_variable("embedding_table", shape=[self._n_tok, dim_embeddings],
-                                            dtype=tf.float32, initializer=embedding_initializer())
+                                            dtype=tf.float64, initializer=embedding_initializer())
 
             start_token = tf.get_variable("start_token", shape=[dim_embeddings],
-                                        dtype=tf.float32, initializer=embedding_initializer())
+                                        dtype=tf.float64, initializer=embedding_initializer())
 
             batch_size = tf.shape(img)[0]
             # training
