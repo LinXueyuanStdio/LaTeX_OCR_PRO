@@ -51,7 +51,7 @@ class Decoder(object):
                 embeddings = get_embeddings(formula, embedding_table, dim_embeddings,
                                             start_token, batch_size)  # (N, T, dim_embedding)
                 attn_meca = AttentionMechanism(img, dim_e)
-                recu_cell = LSTMCell(num_units, dtype=tf.float64)
+                recu_cell = LSTMCell(num_units)
                 attn_cell = AttentionCell(recu_cell, attn_meca, dropout, self._config.attn_cell_config, self._n_tok)
 
                 train_outputs, _ = tf.nn.dynamic_rnn(attn_cell, embeddings, initial_state=attn_cell.initial_state(), dtype=tf.float64)
@@ -59,7 +59,7 @@ class Decoder(object):
             # decoding
             with tf.variable_scope("AttentionCell", reuse=True):
                 attn_meca = AttentionMechanism(img, dim_e, tiles=self._tiles)
-                recu_cell = LSTMCell(num_units, dtype=tf.float64, reuse=True)
+                recu_cell = LSTMCell(num_units, reuse=True)
                 attn_cell = AttentionCell(recu_cell, attn_meca, dropout, self._config.attn_cell_config, self._n_tok)
                 if self._config.decoding == "greedy":
                     decoder_cell = GreedyDecoderCell(embedding_table, attn_cell, batch_size, start_token, self._id_end)
