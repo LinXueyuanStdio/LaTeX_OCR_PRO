@@ -151,8 +151,8 @@ class AttentionMechanism(object):
         """Returns initial state of dimension specified by dim"""
         with tf.variable_scope(self._scope_name):
             img_mean = tf.reduce_mean(self._img, axis=1)
-            W = tf.get_variable("W_{}_0".format(name), shape=[self._n_channels, dim])  # (C, dim)
-            b = tf.get_variable("b_{}_0".format(name), shape=[dim])
+            W = tf.get_variable("W_{}_0".format(name), shape=[self._n_channels, dim], dtype=tf.float64)  # (C, dim)
+            b = tf.get_variable("b_{}_0".format(name), shape=[dim], dtype=tf.float64)
             h = tf.tanh(tf.matmul(img_mean, W) + b)
 
             return h

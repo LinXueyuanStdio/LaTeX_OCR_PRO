@@ -359,7 +359,7 @@ def mask_probs(probs, end_token, finished):
     """
     # one hot of shape [vocab_size]
     vocab_size = probs.shape[-1].value
-    one_hot = tf.one_hot(end_token, vocab_size, on_value=0.,
+    one_hot = tf.one_hot(end_token, vocab_size, on_value=tf.constant(0., dtype=tf.float64),
                          off_value=probs.dtype.min, dtype=probs.dtype)
     # expand dims of shape [batch_size, beam_size, 1]
     finished = tf.expand_dims(tf.cast(finished, probs.dtype), axis=-1)
