@@ -263,7 +263,13 @@ python visualize_attention.py --image=data/images_test/6.png --vocab=configs/voc
 |     BLEU-4      |  91.03   |  90.47   |
 | ExactMatchScore |  49.30   |  46.22   |
 
-perplexity 是越接近1越好，其余3个指标是越大越好。ExactMatchScore 比较低，继续训练应该可以到 70 以上。机器不太好，训练太费时间了。
+perplexity 是越接近1越好，其余3个指标是越大越好。
+
+其中 EditDistance 和 BLEU-4 已达到业内先进水平
+
+将 perplexity 训练到 1.03 左右，ExactMatchScore 还可以再升，应该可以到 70 以上。
+
+机器不太好，训练太费时间了。
 
 ## 6. 更多细节
 
