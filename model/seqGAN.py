@@ -203,7 +203,7 @@ class SeqGAN(BaseModel):
         # evaluation
         config_eval = Config({
             "dir_answers": self._dir_output + "formulas_val/",
-            "batch_size": config.batch_size
+            "batch_size": config.batch_size + 20
         })
         scores = self.evaluate(config_eval, val_set)
         score = scores["perplexity"] + (scores["ExactMatchScore"] + scores["BLEU-4"] + scores["EditDistance"]) / 10
@@ -265,7 +265,7 @@ class SeqGAN(BaseModel):
                 for j, pred in enumerate(preds):
                     hyps[j].append(pred)
 
-            prog.update(i + 1, [("n_words", n_words), ("ce_words", ce_words)])
+            prog.update(i + 1, [("perplexity", - np.exp(ce_words / float(n_words)))])
 
         files = write_answers(refs, hyps, self._vocab.id_to_tok, config.dir_answers, self._vocab.id_end)
 
