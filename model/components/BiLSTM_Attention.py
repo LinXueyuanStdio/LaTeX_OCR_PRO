@@ -14,7 +14,7 @@ class BiLSTM_Attention(object):
         """
         T : Tokens index in vocab.txt
         Args:
-            embeddings: (tf.float64), shape = (batch_size, tokens_count, dim_embeddings) 生成器的假公式 或 真实公式，这里需要训练才能判别
+            embeddings: (tf.float32), shape = (batch_size, tokens_count, dim_embeddings) 生成器的假公式 或 真实公式，这里需要训练才能判别
             batch_size         == tf.shape(embeddings)[0],  (tf.Shape(), unknown, but we can kown it when there is data in graph)
             max_formula_length == config.max_formula_length (int)
             dim_embeddings     == config.dim_embeddings     (int)
@@ -27,7 +27,7 @@ class BiLSTM_Attention(object):
         print('shape : ', [batch_size, max_formula_length, dim_embeddings])
 
         def tokenscount_less_than_maxlength():
-            b = tf.zeros([batch_size, max_formula_length, dim_embeddings], dtype=tf.float64)
+            b = tf.zeros([batch_size, max_formula_length, dim_embeddings], dtype=tf.float32)
             d = tf.slice(embeddings, [0, 0, 0], [batch_size, tokens_count, dim_embeddings])
             # d 相当于 embeddings[0:batch_size, 0:tokens_count, 0:dim_embeddings]，只是写成计算图的形式
             e = tf.slice(b, [0, 0, 0], [batch_size, max_formula_length-tokens_count, dim_embeddings])
@@ -89,7 +89,7 @@ class BiLSTM_Attention(object):
                     print("bi-lstm" + str(idx), 'self._embeddings', self._embeddings.shape)
                     outputs_, self.current_state = tf.nn.bidirectional_dynamic_rnn(lstmFwCell, lstmBwCell,
                                                                                    self._embeddings,
-                                                                                   dtype=tf.float64,
+                                                                                   dtype=tf.float32,
                                                                                    scope="bi-lstm" + str(idx))
 
                     # 对outputs中的fw和bw的结果拼接 [batch_size, time_step, hidden_size * 2], 传入到下一层Bi-LSTM中
@@ -115,7 +115,7 @@ class BiLSTM_Attention(object):
             l2Loss += tf.nn.l2_loss(outputW)
             l2Loss += tf.nn.l2_loss(outputB)
             self.logits = tf.nn.xw_plus_b(output, outputW, outputB, name="logits")
-            self.predictions = tf.cast(tf.greater_equal(self.logits, 0.0), tf.float64, name="predictions")
+            self.predictions = tf.cast(tf.greater_equal(self.logits, 0.0), tf.float32, name="predictions")
 
         return self.logits, self.predictions, l2Loss
 

@@ -45,12 +45,12 @@ def add_timing_signal_nd(x, min_timescale=1.0, max_timescale=1.0e4):
     num_timescales = channels // (num_dims * 2)  # 512 // (2*2) = 128
     log_timescale_increment = (
         math.log(float(max_timescale) / float(min_timescale)) /
-        (tf.to_double(num_timescales) - 1))  # -0.1 / 127
+        (tf.to_float(num_timescales) - 1))  # -0.1 / 127
     inv_timescales = min_timescale * tf.exp(
-        tf.to_double(tf.range(num_timescales)) * -log_timescale_increment)  # len == 128
+        tf.to_float(tf.range(num_timescales)) * -log_timescale_increment)  # len == 128
     for dim in range(num_dims):  # dim == 0; 1
         length = tf.shape(x)[dim + 1]  # 14
-        position = tf.to_double(tf.range(length))  # len == 14
+        position = tf.to_float(tf.range(length))  # len == 14
         scaled_time = tf.expand_dims(position, 1) * tf.expand_dims(
             inv_timescales, 0)  # pos = [14, 1], inv = [1, 128], scaled_time = [14, 128]
         signal = tf.concat([tf.sin(scaled_time), tf.cos(scaled_time)], axis=1)  # [14, 256]

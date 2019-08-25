@@ -10,7 +10,7 @@ AttentionState = collections.namedtuple("AttentionState", ("cell_state", "o"))
 
 class AttentionCell(RNNCell):
     def __init__(self, cell, attention_mechanism, dropout, attn_cell_config,
-                 num_proj, dtype=tf.float64):
+                 num_proj, dtype=tf.float32):
         """
         Args:
             cell: (RNNCell)
@@ -75,9 +75,9 @@ class AttentionCell(RNNCell):
             c = self._attention_mechanism.context(new_h)
 
             # compute o
-            o_W_c = tf.get_variable("o_W_c", dtype=tf.float64, shape=(self._n_channels, self._dim_o))
-            o_W_h = tf.get_variable("o_W_h", dtype=tf.float64, shape=(self._num_units, self._dim_o))
-            y_W_o = tf.get_variable("y_W_o", dtype=tf.float64, shape=(self._dim_o, self._num_proj))
+            o_W_c = tf.get_variable("o_W_c", dtype=tf.float32, shape=(self._n_channels, self._dim_o))
+            o_W_h = tf.get_variable("o_W_h", dtype=tf.float32, shape=(self._num_units, self._dim_o))
+            y_W_o = tf.get_variable("y_W_o", dtype=tf.float32, shape=(self._dim_o, self._num_proj))
 
             new_o = tf.tanh(tf.matmul(new_h, o_W_h) + tf.matmul(c, o_W_c))
             new_o = tf.nn.dropout(new_o, self._dropout)

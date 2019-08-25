@@ -86,7 +86,7 @@ class AttentionMechanism(object):
 
         # computes scalar product with beta vector
         # works faster with a matmul than with a * and a tf.reduce_sum
-        att_beta = tf.get_variable("att_beta", shape=[self._dim_e, 1], dtype=tf.float64)
+        att_beta = tf.get_variable("att_beta", shape=[self._dim_e, 1], dtype=tf.float32)
         att_flat = tf.reshape(att, shape=[-1, self._dim_e])  # 扁平化
 
         e = tf.matmul(att_flat, att_beta)
@@ -151,8 +151,8 @@ class AttentionMechanism(object):
         """Returns initial state of dimension specified by dim"""
         with tf.variable_scope(self._scope_name):
             img_mean = tf.reduce_mean(self._img, axis=1)
-            W = tf.get_variable("W_{}_0".format(name), shape=[self._n_channels, dim], dtype=tf.float64)  # (C, dim)
-            b = tf.get_variable("b_{}_0".format(name), shape=[dim], dtype=tf.float64)
+            W = tf.get_variable("W_{}_0".format(name), shape=[self._n_channels, dim], dtype=tf.float32)  # (C, dim)
+            b = tf.get_variable("b_{}_0".format(name), shape=[dim], dtype=tf.float32)
             h = tf.tanh(tf.matmul(img_mean, W) + b)
 
             return h

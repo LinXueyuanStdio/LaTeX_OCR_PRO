@@ -48,8 +48,8 @@ class SeqGAN(BaseModel):
 
     def build_base_component(self):
         # hyper params
-        self.lr = tf.placeholder(tf.float64, shape=(), name='lr')  # learning rate
-        self.dropout = tf.placeholder(tf.float64, shape=(),   name='dropout')
+        self.lr = tf.placeholder(tf.float32, shape=(), name='lr')  # learning rate
+        self.dropout = tf.placeholder(tf.float32, shape=(),   name='dropout')
 
         # input of the graph
         self.img = tf.placeholder(tf.uint8, shape=(None, None, None, 1),  name='img')  # (N, H, W, C)，这里C=1，因为是灰度图
@@ -91,8 +91,8 @@ class SeqGAN(BaseModel):
 
         Args:
             lr_method: (string) sgd method, for example "adam"
-            lr: (tf.placeholder) tf.float64, learning rate
-            loss: (tensor) tf.float64 loss to minimize
+            lr: (tf.placeholder) tf.float32, learning rate
+            loss: (tensor) tf.float32 loss to minimize
             clip: (python float) clipping of gradient. If < 0, no clipping
 
 
