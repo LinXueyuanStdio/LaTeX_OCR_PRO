@@ -105,6 +105,7 @@ class DataGenerator(object):
 
         # iterate over the dataset in "full" mode and create buckets
         data_buckets = dict()  # buffer for buckets
+        idx = 0
         for idx, (img, formula, img_path, formula_id) in enumerate(self):
             s = img.shape
             if s not in data_buckets:
