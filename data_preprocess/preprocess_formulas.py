@@ -60,21 +60,18 @@ def main(args):
         with open(input_file) as fin:
             for line in fin:
                 fout.write(next_prepocess(line).strip() + '\n')
-    shutil.move(temp_file, input_file)
 
-
-    cmd = "perl -pe 's|hskip(.*?)(cm\\|in\\|pt\\|mm\\|em)|hspace{\\1\\2}|g' %s > %s" % (input_file, output_file)
+    cmd = "perl -pe 's|hskip(.*?)(cm\\|in\\|pt\\|mm\\|em)|hspace{\\1\\2}|g' %s > %s" % (temp_file, output_file)
     ret = subprocess.call(cmd, shell=True)
     if ret != 0:
         logging.error('FAILED: %s' % cmd)
+    os.remove(temp_file)
 
     temp_file = output_file + '.tmp'
     with open(temp_file, 'w') as fout:
         with open(output_file) as fin:
             for line in fin:
-                fout.write(line.replace('\r', ' ').strip() + '\n')  # delete \r
-                fout.write(line.replace('&gt;', '>').strip() + '\n')
-                fout.write(line.replace('&lt;', '<').strip() + '\n')
+                fout.write(line.replace('\r', ' ').replace('&gt;', '>').replace('&lt;', '<').strip() + '\n')  # delete \r
 
     cmd = "cat %s | node preprocess_latex.js %s > %s " % (temp_file, parameters.mode, output_file)
     ret = subprocess.call(cmd, shell=True)
@@ -102,7 +99,7 @@ def next_prepocess(line):
     newline = re.sub(r"&lt;", '>', newline)
     newline = re.sub(r" \\ \\ \\ \\ ", ' ', newline)
     newline = re.sub(r" \\; \\; \\; ", ' ', newline)
-    newline = re.sub(r" f r a c ", r' \frac ', newline)
+    newline = re.sub(r" f r a c ", r' \\frac ', newline)
     newline = re.sub(r"\\operatorname \{ ([a-z]+) ([a-z]+) \}", r'\\\1\2', newline)
     newline = re.sub(r"\\operatorname \{ ([a-z]+) ([a-z]+) ([a-z]+) \}", r'\\\1\2\3', newline)
     newline = re.sub(r"\\operatorname \{ ([a-z]+) ([a-z]+) ([a-z]+) ([a-z]+) \}", r'\\\1\2\3\4', newline)
