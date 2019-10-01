@@ -121,16 +121,16 @@ class Config():
         else:
             copyfile(self.source, dir_name + self.export_name)
 
-    def show(self):
+    def show(self, fun = print):
         if type(self.source) is list:
             for s in self.source:
                 c = Config(s)
                 c.show()
         elif type(self.source) is dict:
-            print(json.dumps(self.source))
+            fun(json.dumps(self.source))
         else:
             with open(self.source) as f:
-                print(json.dumps(json.load(f), indent=4))
+                fun(json.dumps(json.load(f), indent=4))
 
 
 class Progbar(object):

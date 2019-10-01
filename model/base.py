@@ -17,10 +17,10 @@ class BaseModel(object):
 
         """
         self._config = config
-        config.show()
         self._dir_output = dir_output
         init_dir(self._dir_output)
         self.logger = get_logger(self._dir_output + "model.log")
+        config.show(fun = self.logger.info)
         tf.reset_default_graph()  # save guard if previous model was defined
 
     def build_train(self, config=None):
@@ -138,7 +138,7 @@ class BaseModel(object):
 
         return best_score
 
-    def _run_train(config, train_set, val_set, epoch, lr_schedule):
+    def _run_train(self, config, train_set, val_set, epoch, lr_schedule):
         """Model_specific method to overwrite
 
         Performs an epoch of training
@@ -176,7 +176,7 @@ class BaseModel(object):
 
         return scores
 
-    def _run_evaluate(config, test_set):
+    def _run_evaluate(self, config, test_set):
         """Model-specific method to overwrite
 
         Performs an epoch of evaluation
