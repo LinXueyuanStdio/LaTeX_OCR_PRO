@@ -26,9 +26,29 @@ Seq2Seq + Attention + Beam Search。结构如下：
 ## 1. 搭建环境
 
 1. python3.5 + tensorflow1.12.2
-2. latex (latex 转 pdf)
-3. ghostscript (图片处理)
-4. magick (pdf 转 png)
+2. `[可选]` latex (latex 转 pdf)
+3. `[可选]` ghostscript (图片处理)
+4. `[可选]` magick (pdf 转 png)
+
+### 如果你想直接训练，不想自己构建数据集：
+
+1. `[可选]` 新开一个虚拟环境
+   ```shell
+   virtualenv env35 --python=python3.5
+   source env35/bin/activate
+   ```
+2. 安装依赖
+   ```shell
+   pip install -r requirements.txt     // cpu 版
+   pip install -r requirements-gpu.txt // gpu 版
+   ```
+3. 下载数据集
+   ```shell
+   git submodule init
+   git submodule update
+   ```
+
+### 如果你想自己构建数据集，然后再训练：
 
 <details>
   <summary>Linux</summary>
