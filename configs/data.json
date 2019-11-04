@@ -5,13 +5,13 @@
     "dir_images_test" : "data/images_test/",
     "dir_images_val"  : "data/images_val/",
 
-    "path_matching_train": "data/train.matching.txt",
-    "path_matching_val"  : "data/val.matching.txt",
-    "path_matching_test" : "data/test.matching.txt",
+    "path_matching_train": "data/full/matching/train.matching.txt",
+    "path_matching_val"  : "data/full/matching/val.matching.txt",
+    "path_matching_test" : "data/full/matching/test.matching.txt",
 
-    "path_formulas_train": "data/train.formulas.norm.txt",
-    "path_formulas_test" : "data/test.formulas.norm.txt",
-    "path_formulas_val"  : "data/val.formulas.norm.txt",
+    "path_formulas_train": "data/full/formulas/train.formulas.norm.txt",
+    "path_formulas_test" : "data/full/formulas/test.formulas.norm.txt",
+    "path_formulas_val"  : "data/full/formulas/val.formulas.norm.txt",
 
     "bucket_train": true,
     "bucket_val": true,
