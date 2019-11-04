@@ -4,6 +4,6 @@
     "unk": "_UNK",
     "pad": "_PAD",
     "end": "_END",
-    "path_vocab": "data/small.formulas/vocab.txt",
+    "path_vocab": "data/small/formulas/vocab.txt",
     "min_count_tok": 0
 }
