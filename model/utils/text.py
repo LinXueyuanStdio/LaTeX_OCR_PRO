@@ -135,7 +135,7 @@ def write_vocab(vocab, filename):
                 f.write("{}\n".format(word))
             else:
                 f.write(word)
-    print("- done. {} tokens".format(i+1))
+        print("- done. {} tokens".format(i+1))
 
 
 def pad_batch_formulas(formulas, id_pad, id_end, max_len=None):
