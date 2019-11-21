@@ -190,6 +190,8 @@ class Img2SeqModel(BaseModel):
 
         # logging
         self.logger.info("- Training: {}".format(prog.info))
+        self.logger.info("- Config: (before evaluate, we need to see config)")
+        config.show(fun = self.logger.info)
 
         # evaluation
         config_eval = Config({

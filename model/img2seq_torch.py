@@ -124,6 +124,8 @@ class Img2SeqModel(BaseModel):
             lr_schedule.update(batch_no=epoch*nbatches + i)
 
         self.logger.info("- Training: {}".format(prog.info))
+        self.logger.info("- Config: (before evaluate, we need to see config)")
+        config.show(fun = self.logger.info)
 
         # evaluation
         config_eval = Config({"dir_answers": self._dir_output + "formulas_val/", "batch_size": config.batch_size})

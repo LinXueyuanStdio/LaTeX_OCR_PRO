@@ -125,7 +125,7 @@ class Config():
         if type(self.source) is list:
             for s in self.source:
                 c = Config(s)
-                c.show()
+                c.show(fun)
         elif type(self.source) is dict:
             fun(json.dumps(self.source))
         else:
