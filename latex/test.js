@@ -1,4 +1,5 @@
 var katex = require("./lib/katex.js")
+var parse = katex.__parse // function, 在 python 中调用
 var inspect = require('util').inspect;
 var latex = '\\sqrt { \\sin ( \\frac { \\Pi } { 2 } ) } = 1'
 var tree = katex.__parse(latex)
