@@ -3,7 +3,7 @@
 // Reads TeX from stdin, outputs HTML to stdout.
 /* eslint no-console:0 */
 
-var katex = require("./");
+var katex = require("./katex");
 var input = "";
 
 // Skip the first two args, which are just "node" and "cli.js"

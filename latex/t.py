@@ -16,3 +16,16 @@ with open('./test.js') as f:
   ast2 = ctx.call("parse", "\\sqrt { \\sin ( \\frac { \\Pi } { 2 } ) } = 1")
   print(ast2)
   print(type(ast2[0]))
+
+  # MathML 的 AST
+  exp = ctx.eval("exp")
+  print(exp)
+
+  # MathML 字符串
+  s = ctx.eval("s")
+  print(s)
+  print(type(s))
+
+  s2 = ctx.call("renderTreeToString2", ast2, "\\sqrt { \\sin ( \\frac { \\Pi } { 2 } ) } = 1")
+  print(s2)
+  print(type(s2))

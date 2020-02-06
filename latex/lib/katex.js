@@ -10,6 +10,7 @@
 var ParseError = require("./src/ParseError");
 var Settings = require("./src/Settings");
 
+var a = require("./src/buildMathML");
 var buildTree = require("./src/buildTree");
 var parseTree = require("./src/parseTree");
 var utils = require("./src/utils");
@@ -61,8 +62,21 @@ var generateParseTree = function(expression, options) {
     return parseTree(expression, settings);
 };
 
+var renderTreeToString = function(tree, expression, options) {
+    var settings = new Settings(options);
+    return buildTree(tree, expression, settings).toMarkup();
+};
+
+var renderTreeToNode = function(tree, expression, options) {
+    var settings = new Settings(options);
+    return buildTree(tree, expression, settings).toMarkup();
+};
+
 module.exports = {
     render: render,
+    buildExpression: a.buildExpression,
+    renderTreeToString: renderTreeToString,
+    renderTreeToNode: renderTreeToNode,
     renderToString: renderToString,
     /**
      * NOTE: This method is not currently recommended for public use.

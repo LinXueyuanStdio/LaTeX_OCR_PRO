@@ -1,5 +1,6 @@
 var buildHTML = require("./buildHTML");
-var buildMathML = require("./buildMathML");
+var a = require("./buildMathML");
+buildMathML = a.buildMathML
 var buildCommon = require("./buildCommon");
 var Options = require("./Options");
 var Settings = require("./Settings");

@@ -530,4 +530,7 @@ var buildMathML = function(tree, texExpression, options) {
     return makeSpan(["katex-mathml"], [math]);
 };
 
-module.exports = buildMathML;
+module.exports = {
+    buildMathML: buildMathML,
+    buildExpression: buildExpression
+}

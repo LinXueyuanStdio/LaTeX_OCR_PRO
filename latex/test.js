@@ -3,6 +3,13 @@ var parse = katex.__parse // function, 在 python 中调用
 var inspect = require('util').inspect;
 var latex = '\\sqrt { \\sin ( \\frac { \\Pi } { 2 } ) } = 1'
 var tree = katex.__parse(latex)
+var buildExpression = katex.buildExpression
+var exp = buildExpression(tree, {})
+var renderTreeToNode = katex.renderTreeToNode
+var renderTreeToString = katex.renderTreeToString
+var s = renderTreeToString(tree, latex, {})
+
+var renderTreeToString2 = (tree, latex) => {renderTreeToString(tree, latex, {})}
 
 function printTree(initialTree, printNode, getChildren) {
   function printBranch(tree, branch) {
