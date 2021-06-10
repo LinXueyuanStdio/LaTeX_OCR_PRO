@@ -10,6 +10,6 @@ notebook>=5.7.8
 tensorboard==1.12.2
 tensorflow-tensorboard==0.4.0rc3
 pyecharts==1.4.0
-django==2.2.8
+django==2.2.24
 autopep8==1.4.4
 matplotlib
