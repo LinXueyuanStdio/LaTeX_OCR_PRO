@@ -3,7 +3,7 @@ tensorboard==1.12.2
 tensorflow-tensorboard==0.4.0rc3
 scipy==1.0.0
 nltk==3.4.5
-Pillow==5.0.0
+Pillow==8.3.2
 Distance==0.1.3
 six==1.12.0
 click==6.7
