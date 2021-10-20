@@ -309,3 +309,7 @@ perplexity 是越接近1越好，其余3个指标是越大越好。
 1. [Show, Attend and Tell(Kelvin Xu...)](https://arxiv.org/abs/1502.03044)
 2. [Harvard's paper and dataset](http://lstm.seas.harvard.edu/latex/)
 3. [Seq2Seq for LaTeX generation](https://guillaumegenthial.github.io/image-to-latex.html).
+
+## 8. 相关项目
+
+[LaTeX_OCR 的 PyTorch 版: https://github.com/qs956/Latex_OCR_Pytorch](https://github.com/qs956/Latex_OCR_Pytorch) by [@qs956](https://github.com/qs956)
