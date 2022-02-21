@@ -2,12 +2,12 @@
 
 数学公式识别，增强：中文公式、手写公式
 
-![](https://raw.githubusercontent.com/LinXueyuanStdio/LaTeX_OCR/master/art/6.png)
 ![](https://raw.githubusercontent.com/LinXueyuanStdio/LaTeX_OCR/master/art/visualization_6_short.gif)
-![](https://raw.githubusercontent.com/LinXueyuanStdio/LaTeX_OCR/master/art/12.png)
+![](https://raw.githubusercontent.com/LinXueyuanStdio/LaTeX_OCR/master/art/6.png)
 ![](https://raw.githubusercontent.com/LinXueyuanStdio/LaTeX_OCR/master/art/visualization_12_short.gif)
-![](https://raw.githubusercontent.com/LinXueyuanStdio/LaTeX_OCR/master/art/14.png)
+![](https://raw.githubusercontent.com/LinXueyuanStdio/LaTeX_OCR/master/art/12.png)
 ![](https://raw.githubusercontent.com/LinXueyuanStdio/LaTeX_OCR/master/art/visualization_14_short.gif)
+![](https://raw.githubusercontent.com/LinXueyuanStdio/LaTeX_OCR/master/art/14.png)
 
 Seq2Seq + Attention + Beam Search。结构如下：
 
