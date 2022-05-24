@@ -1,4 +1,4 @@
-tensorflow==1.12.2
+tensorflow==2.6.4
 tensorboard==1.12.2
 tensorflow-tensorboard==0.4.0rc3
 scipy==1.0.0
