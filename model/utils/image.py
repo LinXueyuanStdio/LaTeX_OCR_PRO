@@ -185,7 +185,8 @@ def convert_to_png(formula, dir_output, name, quality=100, density=200,
         dir_output, dir_output+"{}.tex".format(name)), TIMEOUT)
 
     # call magick to convert the pdf into a png file
-    run("magick convert -density {} -quality {} {} {}".format(density, quality,
+    # run("magick convert -density {} -quality {} {} {}".format(density, quality,
+    run("convert -density {} -quality {} {} {}".format(density, quality,
                                                               dir_output+"{}.pdf".format(name),
                                                               dir_output+"{}.png".format(name)),
         TIMEOUT)
