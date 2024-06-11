@@ -18,11 +18,16 @@ from model.utils.image import greyscale
 @click.option('--model', default="configs/model.json",
               help='Path to model json config')
 @click.option('--output', default="results/small/",
-              help='Dir for results and model weights')
-def main(data, vocab, training, model, output):
+              help='Dir for results and model weights, ends with /')
+@click.option('--continue_train', default=False,
+              help='continue training from output')
+def main(data, vocab, training, model, output, continue_train):
     # Load configs
     dir_output = output
-    config = Config([data, vocab, training, model])
+    if continue_train:
+        config = Config([output+"data.json", output+"vocab.json", output+"training.json", output+"model.json"])
+    else:
+        config = Config([data, vocab, training, model])
     config.save(dir_output)
     vocab = Vocab(config)
 

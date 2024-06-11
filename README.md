@@ -47,7 +47,8 @@ Seq2Seq + Attention + Beam Search。结构如下：
    git submodule init
    git submodule update
    ```
-   如果 git 速度太慢，您也可以手动下载数据集，放到 data 目录下。数据集仓库在 https://github.com/LinXueyuanStdio/Data-for-LaTeX_OCR 
+   > 如果 git 速度太慢，您也可以手动下载数据集，放到 data 目录下。数据集仓库在 https://github.com/LinXueyuanStdio/Data-for-LaTeX_OCR
+   > 数据仓库同时托管到 [huggingface (linxy/LaTeX_OCR)](https://huggingface.co/datasets/linxy/LaTeX_OCR)，欢迎使用！
 
 ### 如果你想自己构建数据集，然后再训练：
 
