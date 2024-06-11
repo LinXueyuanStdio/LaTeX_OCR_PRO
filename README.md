@@ -22,6 +22,8 @@ Seq2Seq + Attention + Beam Search。结构如下：
     * [模型实现细节](./doc/How-it-work.md)
     * [解决方案](./doc/Solution.md)
 * [7. 致谢](#7-致谢)
+* [8. 相关项目](#8-相关项目)
+* [9. 引用](#9-引用)
 
 ## 1. 搭建环境
 
@@ -317,3 +319,17 @@ perplexity 是越接近1越好，其余3个指标是越大越好。
 ## 8. 相关项目
 
 [LaTeX_OCR 的 PyTorch 版: https://github.com/qs956/Latex_OCR_Pytorch](https://github.com/qs956/Latex_OCR_Pytorch) by [@qs956](https://github.com/qs956)
+
+## 9. 引用
+
+BibTeX
+
+```
+@misc{lin2024latex_ocr_pro,
+  title={LaTeX_OCR_PRO},
+  author={Xueyuan Lin},
+  year={2024},
+  publisher={GitHub},
+  howpublished={\url{https://github.com/LinXueyuanStdio/LaTeX_OCR_PRO}},
+}
+```
